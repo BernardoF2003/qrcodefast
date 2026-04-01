@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato — QRCode Fast</title>
+  <meta name="description" content="Entre em contato com o QRCode Fast. Tire suas dúvidas ou fale sobre o plano Pro.">
+  <link rel="canonical" href="https://qrcodefast.com.br/contato.html">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8FCYNRJNZS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8FCYNRJNZS');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6907848394210569" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f; --surface: #13131a; --surface2: #1c1c27;
+      --border: #2a2a3d; --accent: #00e5a0; --accent2: #00b8ff;
+      --text: #f0f0f8; --muted: #6b6b8a; --gold: #ffd166;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-weight: 300; line-height: 1.8; min-height: 100vh; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: linear-gradient(rgba(0,229,160,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(0,229,160,0.02) 1px, transparent 1px);
+      background-size: 40px 40px; pointer-events: none; z-index: 0;
+    }
+    nav {
+      position: relative; z-index: 10;
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .nav-back { font-size: 13px; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .nav-back:hover { color: var(--accent); }
+    .container { position: relative; z-index: 10; max-width: 680px; margin: 0 auto; padding: 60px 24px 80px; }
+    .page-badge {
+      display: inline-block; background: rgba(0,229,160,0.08); border: 1px solid rgba(0,229,160,0.2);
+      border-radius: 100px; padding: 5px 14px; font-size: 11px; color: var(--accent);
+      letter-spacing: 2px; text-transform: uppercase; font-family: 'Syne', sans-serif; margin-bottom: 20px;
+    }
+    h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 2.2rem; letter-spacing: -1px; margin-bottom: 12px; }
+    .subtitle { color: var(--muted); font-size: 15px; margin-bottom: 48px; }
+
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 40px; }
+    @media (max-width: 500px) { .contact-grid { grid-template-columns: 1fr; } }
+
+    .contact-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+      padding: 24px; transition: border-color 0.2s;
+    }
+    .contact-card:hover { border-color: var(--accent); }
+    .contact-icon { font-size: 28px; margin-bottom: 12px; }
+    .contact-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; margin-bottom: 6px; color: var(--accent); }
+    .contact-card p { font-size: 13px; color: var(--muted); margin-bottom: 12px; line-height: 1.6; }
+    .contact-card a {
+      display: inline-block; color: var(--text); font-size: 14px; font-weight: 500;
+      text-decoration: none; word-break: break-all;
+    }
+    .contact-card a:hover { color: var(--accent); }
+
+    .faq-section { margin-top: 48px; }
+    .faq-section h2 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.3rem; margin-bottom: 24px; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 18px 0; cursor: pointer; }
+    .faq-q { font-weight: 500; font-size: 15px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .faq-q span { color: var(--accent); font-size: 18px; transition: transform 0.2s; }
+    .faq-a { font-size: 13px; color: var(--muted); line-height: 1.7; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, margin-top 0.2s; }
+    .faq-item.open .faq-a { max-height: 200px; margin-top: 12px; }
+    .faq-item.open .faq-q span { transform: rotate(45deg); }
+
+    .pro-banner {
+      background: linear-gradient(135deg, rgba(255,209,102,0.07), rgba(0,229,160,0.05));
+      border: 1px solid rgba(255,209,102,0.2); border-radius: 16px;
+      padding: 28px; margin-top: 40px; text-align: center;
+    }
+    .pro-banner h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.1rem; margin-bottom: 8px; }
+    .pro-banner p { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+    .btn-pro {
+      display: inline-block; padding: 12px 28px; background: var(--gold);
+      border-radius: 10px; color: #0a0a0f; font-family: 'Syne', sans-serif;
+      font-weight: 700; font-size: 14px; text-decoration: none; transition: opacity 0.2s;
+    }
+    .btn-pro:hover { opacity: 0.88; }
+
+    footer { position: relative; z-index: 10; border-top: 1px solid var(--border); padding: 24px; text-align: center; }
+    footer p { color: var(--muted); font-size: 13px; }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="nav-logo">◈ QRCode Fast</a>
+    <a href="/" class="nav-back">← Voltar ao gerador</a>
+  </nav>
+
+  <div class="container">
+    <div class="page-badge">Suporte</div>
+    <h1>Fale conosco</h1>
+    <p class="subtitle">Tem alguma dúvida, sugestão ou problema? Estamos aqui para ajudar.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">📧</div>
+        <h3>E-mail</h3>
+        <p>Respondo em até 24 horas úteis.</p>
+        <a href="mailto:qrcodefast@outlook.com">qrcodefast@outlook.com</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h3>Suporte Pro</h3>
+        <p>Assinantes do plano Pro têm prioridade no atendimento.</p>
+        <a href="mailto:qrcodefast@outlook.com">Enviar mensagem →</a>
+      </div>
+    </div>
+
+    <div class="faq-section">
+      <h2>Dúvidas frequentes</h2>
+
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-q">O gerador é realmente grátis? <span>+</span></div>
+        <div class="faq-a">Sim! A versão gratuita é 100% grátis, sem cadastro e sem limite de uso. Você pode gerar quantos QR Codes quiser.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-q">Como acesso o plano Pro após o pagamento? <span>+</span></div>
+        <div class="faq-a">Após o pagamento via Cakto, você receberá um e-mail com o link de acesso à versão Pro em até 24 horas. Em caso de demora, entre em contato pelo e-mail qrcodefast@outlook.com.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-q">Posso cancelar o plano Pro? <span>+</span></div>
+        <div class="faq-a">Sim, você pode cancelar a qualquer momento diretamente pela plataforma Cakto ou nos enviando um e-mail. Não há fidelidade nem multa por cancelamento.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-q">O QR Code gerado tem prazo de validade? <span>+</span></div>
+        <div class="faq-a">QR Codes estáticos (versão gratuita) nunca expiram. O conteúdo fica gravado diretamente no código e funciona para sempre, independente do nosso site.</div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-q">Posso usar os QR Codes gerados comercialmente? <span>+</span></div>
+        <div class="faq-a">Sim! Os QR Codes gerados pertencem a você e podem ser usados livremente para qualquer finalidade, incluindo uso comercial em cardápios, embalagens, materiais de marketing etc.</div>
+      </div>
+    </div>
+
+    <div class="pro-banner">
+      <h3>Precisa de QR Codes profissionais?</h3>
+      <p>Com o plano Pro você adiciona sua logo, exporta em SVG e muito mais.</p>
+      <a href="https://pay.cakto.com.br/37xmk3o_800992" target="_blank" class="btn-pro">Ver plano Pro — R$19/mês →</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 QRCodeFast.com.br · <a href="/">Início</a> · <a href="/privacidade.html">Política de Privacidade</a> · <a href="/termos.html">Termos de Uso</a></p>
+  </footer>
+
+  <script>
+    function toggleFAQ(el) {
+      const isOpen = el.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) el.classList.add('open');
+    }
+  </script>
+</body>
+</html>
